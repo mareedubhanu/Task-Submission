@@ -1,0 +1,123 @@
+.editable-cell {
+    position: relative;
+  }
+  
+  .editable-cell-input-wrapper,
+  .editable-cell-text-wrapper {
+    padding-right: 24px;
+  }
+  
+  .editable-cell-text-wrapper {
+    padding: 5px 24px 5px 5px;
+  }
+  
+  .editable-cell-icon,
+  .editable-cell-icon-check {
+    position: absolute;
+    right: 0;
+    width: 20px;
+    cursor: pointer;
+  }
+  
+  .editable-cell-icon {
+    line-height: 18px;
+    display: none;
+  }
+  
+  .editable-cell-icon-check {
+    line-height: 28px;
+  }
+  
+  .editable-cell:hover .editable-cell-icon {
+    display: inline-block;
+  }
+  
+  .editable-cell-icon:hover,
+  .editable-cell-icon-check:hover {
+    color: #108ee9;
+  }
+  
+  .editable-add-btn {
+    margin-bottom: 8px;
+  }
+
+
+
+  body {
+    background-color: rgb(228, 229, 247);
+  }
+ 
+  
+  .card {
+    font-family: sans-serif;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom:3em;
+    border-radius: 10px;
+    background-color: #ffff;
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+  }
+  .subtitle {
+    text-align: center;
+    font-weight: bold;
+  }
+  .btn-text {
+    margin: 0;
+  }
+  
+  
+  .or {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(245 239 239);
+    line-height: 0.1em;
+    margin: 25px 0;
+  }
+  .or span {
+    background: #fff;
+    padding: 0 10px;
+  }
+  
+  .email-login {
+    display: flex;
+    flex-direction: column;
+  }
+  .email-login label {
+    color: rgb(170 166 166);
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 15px 20px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .cta-btn {
+    background-color: rgb(69, 69, 185);
+    color: white;
+    padding: 18px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .forget-pass {
+    text-align: center;
+    display: block;
+  }
+  
